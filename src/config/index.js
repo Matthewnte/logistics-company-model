@@ -15,4 +15,5 @@ module.exports = {
 
   // export your database url
   databaseURL: process.env.MONGODB_URI,
+  secretKey: process.env.DEVELOPMENT_SECRET_KEY,
 };
